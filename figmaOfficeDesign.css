@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+nav {
+  width: 80vw;
+  margin: 2rem auto;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-top: ; */
+  border: 5px solid grey;
+  font-size: 1.2rem;
+
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul>li {
+  padding: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav>#bookNowBtn {
+  background-color: red;
+}
+
+/* Main Section Sarts Here */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#mainSubSection1>p {
+  width: 70%;
+  font-size: 4rem;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  width: 30vw;
+  height: 50vh;
+}
+
+/* SubSectionInnerDiv1 */
+#SubSectionInnerDiv1 {
+  display: flex;
+  margin-top: 3rem;
+}
+
+#div2 {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#section1 {
+  background-color: black;
+  color: white;
+  font-weight: none;
+}
+
+#section1Div1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#section1Div2 {
+  display: flex;
+}
+
+#section1Div2>div {
+  line-height: 30px;
+  margin: 2rem;
+}
+
+/* @media (max-width) {
+  
+} */
