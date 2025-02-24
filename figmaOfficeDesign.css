@@ -34,7 +34,8 @@ a {
 }
 
 nav>#bookNowBtn {
-  background-color: red;
+  background-color: black;
+  color: white;
 }
 
 /* Main Section Sarts Here */
